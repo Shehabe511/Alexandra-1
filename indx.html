@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="/css/stayl.css" />
+    <!-- Font Family -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- -------------style switcher------------ -->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+
+    <div class="style-switcher">
+      <label for="toggler" class="style-switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+
+      <label for="day-night" class="style-switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+      <h3 class="style-switcher-title">Theme Colors</h3>
+
+      <div class="style-switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+        <label for="color-6" class="color-6 color"></label>
+        <label for="color-7" class="color-7 color"></label>
+        <label for="color-8" class="color-8 color"></label>
+        <label for="color-9" class="color-9 color"></label>
+        <label for="color-10" class="color-10 color"></label>
+      </div>
+    </div>
+    <!-- -------------end switcher------------- -->
+    <!-- Start header -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="indx.html" class="nav-logo">Alexandra</a>
+        <input type="checkbox" id="nav-toggler" />
+        <label for="nav-toggler" class="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#qualification" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Servicec</a>
+          </li>
+          <li class="nav-item">
+            <a href="#works" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End header -->
+
+    <!-- ///////// main ///////// -->
+    <main class="main">
+      <!-- start home -->
+      <section class="home" id="home">
+        <div class="home-container container grid">
+          <div class="home-content">
+            <span class="home-small">Hello</span>
+            <h1 class="home-title">
+              <span>I'm</span> Alexandra <br />
+              a <span>UI/UX Designer</span>
+            </h1>
+            <p class="home-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              officiis perferendis optio et totam sequi placeat omnis earum, ea
+              eum reiciendis illum deserunt distinctio voluptates eos libero
+              delectus nisi natus!
+            </p>
+            <div class="home-btns">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="#Portfolio" class="btn btn-transparent">Portfolio</a>
+            </div>
+          </div>
+          <div class="home-img-wrapper">
+            <img src="/images/profile.png" alt="" class="home-img" />
+          </div>
+        </div>
+      </section>
+      <!--//////// end home ////////-->
+
+      <!--//////// start about ////////-->
+      <section class="aboutsection" id="about">
+        <div class="about-container container grid">
+          <div class="about-img-wrapper">
+            <img src="/images/about.png" alt="" class="about-img" />
+            <img src="/images/about.png" alt="" class="about-img" />
+            <img src="/images/about.png" alt="" class="about-img" />
+            <img src="/images/about.png" alt="" class="about-img" />
+          </div>
+
+          <div class="about-content">
+            <h2 class="section-title" data-title="who am i">
+              I'm Alexandra Smith, a Visual UI/UX Designer and Web Developer
+            </h2>
+            <p class="about-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              officiis perferendis optio et totam sequi placeat omnis earum, ea
+              eum reiciendis illum deserunt distinctio voluptates eos libero
+              delectus nisi natus!
+            </p>
+            <ul class="about-data grid">
+              <li class="data-item">
+                <h3 class="data-title">Name:</h3>
+                <span class="data-description">Alexandra Smith</span>
+              </li>
+
+              <li class="data-item">
+                <h3 class="data-title">Age:</h3>
+                <span class="data-description">24 Years</span>
+              </li>
+
+              <li class="data-item">
+                <h3 class="data-title">From:</h3>
+                <span class="data-description">London,UK</span>
+              </li>
+
+              <li class="data-item">
+                <h3 class="data-title">Email:</h3>
+                <span class="data-description about-link">
+                  alexandra@gmail.com</span
+                >
+              </li>
+            </ul>
+
+            <div class="about-bottom">
+              <a href="" class="btn">Download CV</a>
+
+              <div class="about-social-links">
+                <a href="" class="about-social-link">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="" class="about-social-link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="" class="about-social-link">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="" class="about-social-link">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/////////// end abuot///////////// -->
+
+      <!--///////start qualification//////  -->
+      <section class="qualification section" id="qualification">
+        <h2 class="section-title title-center" data-title="my journey">
+          Qualification
+        </h2>
+
+        <div class="resume-container container grid">
+          <div class="resume-group">
+            <h3 class="resume-heading">Education</h3>
+
+            <div class="resume-items">
+              <div class="resume-itme">
+                <div class="resume-header">
+                  <h3 class="resume-subtitle">CodeHouse Courses</h3>
+                  <span class="resum-icon">+</span>
+                </div>
+
+                <div class="resume-content">
+                  <div class="resume-data-title">
+                    <h3 class="resume-title">Backend Programming</h3>
+                    <span class="resume-data">2014 - 2016</span>
+                  </div>
+                  <p class="resum-description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Qui eveniet, alias consectetur quaerat accusantium
+                    reprehenderit?
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume-itme">
+                <div class="resume-header">
+                  <h3 class="resume-subtitle">Lviv National Academy Of Arts</h3>
+                  <span class="resum-icon">-</span>
+                </div>
+
+                <div class="resume-content">
+                  <div class="resume-data-title">
+                    <h3 class="resume-title">Faculty Of Design</h3>
+                    <span class="resume-data">2012 - 2014</span>
+                  </div>
+                  <p class="resum-description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Qui eveniet, alias consectetur quaerat accusantium
+                    reprehenderit?
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume-itme">
+                <div class="resume-header">
+                  <h3 class="resume-subtitle">IT Future</h3>
+                  <span class="resum-icon">+</span>
+                </div>
+
+                <div class="resume-content">
+                  <div class="resume-data-title">
+                    <h3 class="resume-title">High School</h3>
+                    <span class="resume-data">2010 - 2012</span>
+                  </div>
+                  <p class="resum-description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Qui eveniet, alias consectetur quaerat accusantium
+                    reprehenderit?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-group">
+            <h3 class="resume-heading">Experience</h3>
+
+            <div class="resume-items">
+              <div class="resume-itme">
+                <div class="resume-header">
+                  <h3 class="resume-subtitle">Ui Head & Manager</h3>
+                  <span class="resum-icon">+</span>
+                </div>
+
+                <div class="resume-content">
+                  <div class="resume-data-title">
+                    <h3 class="resume-title">Soft Tach inc.</h3>
+                    <span class="resume-data">2020 - PRESENT</span>
+                  </div>
+                  <p class="resum-description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Qui eveniet, alias consectetur quaerat accusantium
+                    reprehenderit?
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume-itme">
+                <div class="resume-header">
+                  <h3 class="resume-subtitle">UI & UX Specialist</h3>
+                  <span class="resum-icon">-</span>
+                </div>
+
+                <div class="resume-content">
+                  <div class="resume-data-title">
+                    <h3 class="resume-title">Kana Design Studio</h3>
+                    <span class="resume-data">2018 - 2020</span>
+                  </div>
+                  <p class="resum-description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Qui eveniet, alias consectetur quaerat accusantium
+                    reprehenderit?
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume-itme">
+                <div class="resume-header">
+                  <h3 class="resume-subtitle">Plugins Developer</h3>
+                  <span class="resum-icon">+</span>
+                </div>
+
+                <div class="resume-content">
+                  <div class="resume-data-title">
+                    <h3 class="resume-title">Fiverr.com</h3>
+                    <span class="resume-data">2016 - 2018</span>
+                  </div>
+                  <p class="resum-description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Qui eveniet, alias consectetur quaerat accusantium
+                    reprehenderit?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--///////end qualification//////// -->
+
+      <!--///////start services///////// -->
+      <section class="services section" id="services">
+        <h2 class="section-title title-center" data-title="services">
+          What I do for you
+        </h2>
+
+        <div class="services-container container grid">
+          <div class="services-itme">
+            <i class="fa-solid fa-pen-to-square services-icon"></i>
+            <h3 class="services-title">UI/UX Design</h3>
+            <p class="services-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              tenetur corrupti id maiores et dignissimos!
+            </p>
+            <span class="services-no">01</span>
+          </div>
+          <div class="services-itme">
+            <i class="fa-solid fa-laptop services-icon"></i>
+            <h3 class="services-title">Web Development</h3>
+            <p class="services-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              tenetur corrupti id maiores et dignissimos!
+            </p>
+            <span class="services-no">02</span>
+          </div>
+          <div class="services-itme">
+            <i class="fa-solid fa-chart-area services-icon"></i>
+            <h3 class="services-title">Research & Analysis</h3>
+            <p class="services-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              tenetur corrupti id maiores et dignissimos!
+            </p>
+            <span class="services-no">03</span>
+          </div>
+          <div class="services-itme">
+            <i class="fa-solid fa-pen-to-square services-icon"></i>
+            <h3 class="services-title">UI/UX Design</h3>
+            <p class="services-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              tenetur corrupti id maiores et dignissimos!
+            </p>
+            <span class="services-no">04</span>
+          </div>
+          <div class="services-itme">
+            <i class="fa-solid fa-laptop services-icon"></i>
+            <h3 class="services-title">Web Development</h3>
+            <p class="services-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              tenetur corrupti id maiores et dignissimos!
+            </p>
+            <span class="services-no">05</span>
+          </div>
+          <div class="services-itme">
+            <i class="fa-solid fa-chart-area services-icon"></i>
+            <h3 class="services-title">Research & Analysis</h3>
+            <p class="services-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              tenetur corrupti id maiores et dignissimos!
+            </p>
+            <span class="services-no">06</span>
+          </div>
+        </div>
+      </section>
+      <!--/////end services////// -->
+
+      <!--/////start skills/////-->
+      <section class="skills section" id="portfolio">
+        <h2 class="section-title title-center" data-title="my talent">
+          Proessional Skills
+        </h2>
+
+        <div class="skills-container container grid">
+          <div class="skills-itme">
+            <div class="skills-titles">
+              <h3 class="skills-name">PHP</h3>
+              <span class="skills-no">85%</span>
+            </div>
+            <p class="skills-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+              at nihil nam ad,
+            </p>
+            <div class="skills-bar">
+              <div class="skills-percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-itme">
+            <div class="skills-titles">
+              <h3 class="skills-name">JavaScript</h3>
+              <span class="skills-no">75%</span>
+            </div>
+            <p class="skills-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+              at nihil nam ad,
+            </p>
+            <div class="skills-bar">
+              <div class="skills-percentage" style="width: 75%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-itme">
+            <div class="skills-titles">
+              <h3 class="skills-name">WordPress</h3>
+              <span class="skills-no">90%</span>
+            </div>
+            <p class="skills-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+              at nihil nam ad,
+            </p>
+            <div class="skills-bar">
+              <div class="skills-percentage" style="width: 90%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-itme">
+            <div class="skills-titles">
+              <h3 class="skills-name">Python</h3>
+              <span class="skills-no">75%</span>
+            </div>
+            <p class="skills-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+              at nihil nam ad,
+            </p>
+            <div class="skills-bar">
+              <div class="skills-percentage" style="width: 75%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-itme">
+            <div class="skills-titles">
+              <h3 class="skills-name">React</h3>
+              <span class="skills-no">70%</span>
+            </div>
+            <p class="skills-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+              at nihil nam ad,
+            </p>
+            <div class="skills-bar">
+              <div class="skills-percentage" style="width: 70%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-itme">
+            <div class="skills-titles">
+              <h3 class="skills-name">Adobe XD</h3>
+              <span class="skills-no">80%</span>
+            </div>
+            <p class="skills-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+              at nihil nam ad,
+            </p>
+            <div class="skills-bar">
+              <div class="skills-percentage" style="width: 80%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/////end skills/////-->
+
+      <!--//////start Works //////-->
+      <section class="works section" id="works">
+        <h2 class="section-title title-center" data-title="my portfolio">
+          Recent Works
+        </h2>
+
+        <div class="works-container container grid">
+          <div class="work-card">
+            <img src="/images/project-img-1.jpg" alt="" class="work-img" />
+            <div class="work-datails">
+              <h3 class="work-title">Web Design</h3>
+              <span class="work-description">This is a short description</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="/images/project-img-2.jpg" alt="" class="work-img" />
+            <div class="work-datails">
+              <h3 class="title">Android App</h3>
+              <span class="work-description">This is a short description</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="/images/project-img-3.jpg" alt="" class="work-img" />
+            <div class="work-datails">
+              <h3 class="title">PhotoShop</h3>
+              <span class="work-description">This is a short description</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="/images/project-img-4.jpg" alt="" class="work-img" />
+            <div class="work-datails">
+              <h3 class="title">UI/UX design</h3>
+              <span class="work-description">This is a short description</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="/images/project-img-5.jpg" alt="" class="work-img" />
+            <div class="work-datails">
+              <h3 class="title">Web Design</h3>
+              <span class="work-description">This is a short description</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="/images/project-img-6.jpg" alt="" class="work-img" />
+            <div class="work-datails">
+              <h3 class="title">Web Design</h3>
+              <span class="work-description">This is a short description</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--//////end works////// -->
+
+      <!--/////start testimonials///// -->
+      <section class="testimonials section">
+        <h2 class="section-title title-center" data-title="testimonials">
+          What My Clients Say
+        </h2>
+
+        <div class="testimonials-container container grid">
+          <div class="testimonials-itme">
+            <p class="testimonials-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur beatae ratione cupiditate vel quisquam magni, sed
+              rerum illum, facilis saepe quis quo asperiores. Cupiditate
+              deserunt nihil nobis quisquam! Vero, aliquid!
+            </p>
+            <div class="testimonials-data">
+              <img
+                src="/images/testimonial-1.jpg"
+                alt=""
+                class="testimonials-img"
+              />
+              <div>
+                <h3 class="testimonials-name">John Wilson</h3>
+                <span class="testimonials-identity">Seattle, Washington</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials-itme">
+            <p class="testimonials-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur beatae ratione cupiditate vel quisquam magni, sed
+              rerum illum, facilis saepe quis quo asperiores. Cupiditate
+              deserunt nihil nobis quisquam! Vero, aliquid!
+            </p>
+            <div class="testimonials-data">
+              <img
+                src="/images/testimonial-2.jpg"
+                alt=""
+                class="testimonials-img"
+              />
+              <div>
+                <h3 class="testimonials-name">Wilson John</h3>
+                <span class="testimonials-identity">Seattle, Washington</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/////end  testimonials//////-->
+
+      <!--/////start contact///////-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title title-center" data-title="get in touch">
+          Contact Me
+        </h2>
+
+        <div class="contact-container container grid">
+          <div class="datails">
+            <div class="contact-itme">
+              <i class="fa-solid fa-phone contact-icon"></i>
+              <div>
+                <h3 class="contact-title">Call Us</h3>
+                <span class="contact-data">+123-45-67-89</span>
+              </div>
+            </div>
+            <div class="contact-itme">
+              <i class="fa-solid fa-envelope contact-icon"></i>
+              <div>
+                <h3 class="contact-title">Email Us</h3>
+                <span class="contact-data">exmple@mail.com</span>
+              </div>
+            </div>
+            <div class="contact-itme">
+              <i class="fa-solid fa-location-dot contact-icon"></i>
+              <div>
+                <h3 class="contact-title">Address</h3>
+                <span class="contact-data"
+                  >Address here, 208 Trainer Avenue street, Illionois,UK --
+                  62617.</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact-form">
+            <div class="form-group">
+              <div class="form-input">
+                <input type="text" placeholder="Name" class="input-control" />
+              </div>
+              <div class="form-input">
+                <input type="email" placeholder="Email" class="input-control" />
+              </div>
+            </div>
+            <div class="form-input">
+              <input type="text" placeholder="Subject" class="input-control" />
+            </div>
+            <div class="form-input">
+              <textarea
+                name=""
+                id=""
+                placeholder="Message"
+                cols="30"
+                rows="10"
+                class="input-control textarea"
+              ></textarea>
+            </div>
+            <button class="btn contact-btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+      <!--/////end contact///////-->
+    </main>
+    <!--/////end main///////-->
+
+    <!--////start footer//////-->
+    <footer class="footer">
+      <div class="footer-container container">
+        <p class="footer-copyright">
+          &copy; 2025 Alexander. All Rights Reserved
+        </p>
+        <div class="footer-social-links">
+          <a href="" class="footer-social-link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="" class="footer-social-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="" class="footer-social-link">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="" class="footer-social-link">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!--/////end footer/////-->
+  </body>
+</html>
